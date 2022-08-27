@@ -1,0 +1,8 @@
+version: '3.9'
+services:
+  tnoodle:
+    image: dockermike1809/tnoodle
+    ports:
+      - 2014:2014
+    restart: always
+    container_name: tnoodle
